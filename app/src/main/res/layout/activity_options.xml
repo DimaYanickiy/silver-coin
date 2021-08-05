@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OptionsActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/color_back"
+        android:fontFamily="@font/audiowide"
+        android:padding="25dp"
+        android:text="@string/app_name"
+        android:textColor="@color/yellow"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/change_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn"
+                android:contentDescription="Change photo"
+                android:fontFamily="@font/audiowide"
+                android:text="@string/btn_take_photo"
+                android:textColor="@color/btn_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/market"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn"
+                android:contentDescription="Play market"
+                android:fontFamily="@font/audiowide"
+                android:text="@string/btn_play_market"
+                android:textColor="@color/btn_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/back_to_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn"
+                android:contentDescription="Go back to menu"
+                android:fontFamily="@font/audiowide"
+                android:text="@string/btn_back"
+                android:textColor="@color/btn_text"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:contentDescription="User image"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/coin_1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

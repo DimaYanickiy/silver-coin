@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Silver Coin</string>
+    <string name="facebook_app_id">150445377206545</string>
+    <string name="btn_play_game">Play Game</string>
+    <string name="btn_exit_game">Exit Game</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_play_market">Play Market</string>
+    <string name="btn_take_photo">Set Avatar</string>
+    <string name="btn_options">Options</string>
+    <string name="btn_back">Go Back To Menu</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192766702899",
+    "project_id": "silver-coin-new",
+    "storage_bucket": "silver-coin-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192766702899:android:35993f1da5e980d245fa46",
+        "android_client_info": {
+          "package_name": "sil.sil.lis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192766702899-do2ronep5vl69drror3904vsnceqed1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19hA67yqOCtsGU63JcX8G_yWwYRN_CC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192766702899-do2ronep5vl69drror3904vsnceqed1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
