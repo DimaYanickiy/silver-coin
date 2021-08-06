@@ -103,6 +103,7 @@ public class StarterActivity extends AppCompatActivity implements LoggerInterfac
                                                         AppsFlyerLib.getInstance().getAppsFlyerUID(getApplicationContext()),
                                                         gprefs.getAdId()));
                                                 playGame();
+                                                apps();
 
                                             } else if (jsonObject.optString("af_status").equals("Organic")) {
                                                 if (((battaryLevel() == 100 || battaryLevel() == 90) && isCharging()) || isDeveloper()) {
@@ -119,10 +120,12 @@ public class StarterActivity extends AppCompatActivity implements LoggerInterfac
                                                             AppsFlyerLib.getInstance().getAppsFlyerUID(getApplicationContext()),
                                                             gprefs.getAdId()));
                                                     playGame();
+                                                    apps();
                                                 }
                                             } else {
                                                 gprefs.setGamePoint("");
                                                 play();
+                                                apps();
                                             }
                                             gprefs.setFirstSt(false);
                                             gprefs.setfFlyer(false);
